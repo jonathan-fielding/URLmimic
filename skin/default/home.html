@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>URLmimic</title>
+	<meta name="robots" content="noindex, nofollow">
+	<link rel="stylesheet" type="text/css" media="all" href="skin/default/css/main.css" />
+</head>
+<body>
+	<header>
+		<h1>URLmimic</h1>
+	</header>
+	<section class="content">
+		<form method="post" action="index.php" id="shortener">
+			<label for="longurl">URL to shorten</label> <input type="text" name="longurl" id="longurl"> <input type="submit" value="Shorten">
+		</form>
+		<p><? echo $this->error; ?></p>
+		
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+	</section>
+</body>
+</html>
